@@ -81,9 +81,6 @@ TEST(SquareMatrixTest, ScalarMultiplicationOperator) {
     EXPECT_EQ(matrix * 2.0, expected);
 }
 
-// Add more tests as needed...
-
-
 int main(int argc, char **argv)
 {
     ::testing::InitGoogleTest(&argc, argv);
